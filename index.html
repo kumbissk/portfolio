@@ -14,30 +14,36 @@
     <!-- header -->
 
     <header>
-
         <div class="barre-head">.</div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light left">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              
-            </div>
-            </div>
-          </nav>
-
-
-          <!-- <div class="navigation">
-            <nav class="navbar">
-                <ul class="menu">
-                    <li><a class="nav" href="">a propos</a></li>
-                    <li><a href="">competences</a></li>
-                    <li><a href="">portfolio</a></li>
-                    <li><a href="">curriculum vitae</a></li>
-                    <li><a href="">contact</a></li>
-                </ul>
-            </nav> -->
-        
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#">RK</a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Curriculum Vitae</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
     </header>
     <!-- main -->
     <main>
@@ -46,23 +52,24 @@
             <section id="introduction" class="row">
                 <div class="col-sm-12 text-center">
                     <div id="light-background">
-                        <h1 id="name-title">RAMATA KA</h1>
-                        <!-- <hr class="separator red-separator"> -->
-                        <p id="post-title">Développeuse Web Junior</p>
+                         <a href="#"><img id="photoProfil" class="img img-fluid" src="images/profile.png" alt="Photo de profil" style="width:100%;max-width:500px; height:auto;"></a>
+                        <h1 class="name-title">RAMATA KA</h1>
+                        <hr class="separator red-separator">
+                        <p class="post-title">Développeuse Web Junior</p>
                     </div>
                 </div>
             </section>
         </div>
         <!-- prez -->
-        <div class="container">
+        <div class="container font">
             <section id="about" class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="present">Présentation</h2>
                 </div>
                 <div id="about-image-kum" class="col-md-3 d-flex align-items-center justify-content-center">
-                    <img class="img" src="images/kakumbiss.jpg" alt="Photo de RAMATA" style="justify-content: center;">
+                    <!-- <img class="img" src="images/kakumbiss.jpg" alt="Photo de RAMATA" style="justify-content: center;"> -->
                 </div>
-                <div id="about-text" class="col-sm-12 text-center">
+                <div id="about-text" class="col-sm-12 text-center present-text">
                     <p>Apres l’obtension de mon baccalaureat, j’ai decide de <br>me lancer dans le monde du numerique dont je me <br>suis decouvert une passion, la programmation et <br>
                         plus particulierement le web. j’ai suivi une formation <br>intense et acceleree a Simplon Senegal mais hyper <br>interessante qui m’a permis de toucher du doight <br>
                         le developpement en temps reel. je suis tres motivee <br>et determinee. j’aime apprendre mais surtout j’aime <br>apprendre de nouvelle chose. En meme temps j’ai un <br>
@@ -72,64 +79,61 @@
             </section>
         </div>
         <!--mes-competences  -->
-        <div class="container">
+        <div class="container contenu">
             <div class="col-md-12 text-center">
                 <h2 class="skills">Mes competences</h2>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 card">
+                <div class="barre-head">.</div>
                 <h3 class="skills-list-title text-center">Outils et OS</h3>
                 <ul class="rounded-list">
-                    <li>Maitrise des environnements <strong>Windows</strong> et <strong>Linux</strong></li>
-                    <li>Versionning et partage de projet avec <strong>Git</strong> et <strong>GitHub</strong></li>
-                    <li>Création de <strong>Media Queries</strong> afin de gérer la responsivité des sites Web</li>
-                    <li>Utilisation de <strong>Photoshop</strong> afin d'intégrer des maquettes</li>
+                    <i class="fas fa-chevron-circle-right couleur"></i> <div class="row case"><li>Maitrise des environnements <strong>Windows</strong> et <strong>Linux</strong></li></div> 
+                    <i class="fas fa-chevron-circle-right couleur"></i><div class="row case"><li>Versionning et partage de projet avec <strong>Git</strong> et <strong>GitHub</strong></li></div> 
+                    <i class="fas fa-chevron-circle-right couleur"></i> <div class="row case"><li>Création de <strong>Media Queries</strong> afin de gérer la responsivité des sites Web</li></div> 
+                    <i class="fas fa-chevron-circle-right couleur"></i><div class="row case"><li>Utilisation de <strong>figma</strong> afin d'intégrer des maquettes</li></div>
                 </ul>
+            </div> 
+           
+            <div class="contenu">
+                <div class="col-md-12 card">
+                    <div class="barre-head">.</div>
+                    
+                        <h2 class="skills-langage-title text-center">Langages web</h2>
+                        <p class="font-weight-bold skills-langage">HTML/CSS</p>
+                        <p class="bar"><progress value="75" max="100">75%</progress></p>
+                     
+                        <p class="font-weight-bold skills-langage">C++</p>
+                        <p class="bar"><progress value="95" max="100">95%</progress></p>
+                        
+                        <p class="font-weight-bold skills-langage">JAVASCRIPT</p>
+                        <p class="bar"><progress value="50" max="100">50%</progress></p>
+                       
+                        <p class="font-weight-bold skills-langage">PHP</p>
+                        <p class="bar"><progress value="50" max="100">50%</progress></p>
+                </div>
             </div>
             
-            <div class="col-md-12">
-                <div class="skills-langage">
-                    <h2 class="skills-langage-title text-center">Langages web</h2>
-                    <p class="font-weight-bold">HTML/CSS</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-75" data-percent="75%"></div>
-                    </div>
-                    <p class="font-weight-bold">C++</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-95" data-percent="95%"></div>
-                    </div>
-                    <p class="font-weight-bold">JAVASCRIPT</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-50" data-percent="50%"></div>
-                    </div>
-                    <p class="font-weight-bold">PHP</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-50" data-percent="50%"></div>
-                    </div>
+            <div class="contenu">
+                <div class="col-md-12 card">
+                    <div class="barre-head">.</div>
+                        <h2 class="skills-frame-title text-center">Frameworks</h2>
+                        <p class="font-weight-bold skills-frame">Bootstrap</p>
+                        <p class="bar-frame"><progress value="55" max="100">55%</progress></p>
+                      
+                        <p class="font-weight-bold skills-frame">jQuery</p>
+                        <p class="bar-frame"><progress value="50" max="100">50%</progress></p>
                 </div>
             </div>
-
-            <div class="col-md-12">
-                <div class="skills-frame">
-                    <h2 class="skills-frame-title text-center">Frameworks</h2>
-                    <p class="font-weight-bold">Bootstrap</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-55" data-percent="55%"></div>
-                    </div>
-                    <p class="font-weight-bold">jQuery</p>
-                    <div class="bar">
-                        <div class="bar-inner bar-50" data-percent="50%"></div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
         <!-- mes realisations -->
-        <div class="container">
+        <div class="container projet">
             <div class="col-md-12 text-center">
                 <h2 class="section-realisation-title">Mes Realisations</h2>
             </div>
-            <div class="row">
+            <div class="row image">
                 <img src="images/simplon-site-m.jpg" alt="">
-            <div class="row">
+            <div class="row image">
                 <img src="images/simplon-site-me.jpg" alt="">
             </div>
             <div class="project-description">
@@ -138,20 +142,16 @@
                     la mise en oeuvre des langages HTML/CSS <br>tout en 
                     respectant un cahier des charges bien elabore.
                 </p>
-            </div>
-            <div class="col-md-12 text-center">
-                <div class="vitae">
-                    <p class="cv">
-                        vous pouvez egalements telecharger mon CV.
-                    </p>
+                <div class="col-md-12 text-center">
+                    <p class="vitae">vous pouvez egalements telecharger mon CV.</p>
+                    <p><a href="#" class="cv">Curriculum Vitae</a><br><br><i class="fas fa-file-pdf" style="color: #fff; font-size: 40px;"></i></p>
+                    <!-- <button class="dowload"><a href="#">Curriculum Vitae</a></button> -->
                 </div>
-                <div><img src="" alt=""><i></i></div>
             </div>
-
-
+           
           <!-- mes contact -->
 
-          <div class="container">
+          <div class="container background">
             <div class="col-md-12 text-center">
                 <h2 class="contact">Me contacter</h2>
             </div>
@@ -161,22 +161,19 @@
                     m’envoyer un mail a l’adresse <br> 
                    <a href="#">ramataka81@gmail.com <br>kumbiissk2001@gmail.com</a> 
                 </p>
+                <p class="r-s">Vous pouvez me retrouver dans les reseaux <br>sociaux egalement !</p>
             </div>
-            <div class="coordonnee">
-                <p class="r-s">Vous pouvez me retrouver dans les reseaux <br>
-                    sociaux egalement !</p>
-            </div>
+           
             <div class="liens">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+               <p><a href="#"></a><i class="fab fa-github"></i></p>
+               <p><i class="fab fa-linkedin-in"></i></p>
+               <p><i class="fab fa-facebook"></i></p>
             </div>
         </div>  
     </main>
 
     <footer>
-
-
+        
     </footer>
     
 </body>

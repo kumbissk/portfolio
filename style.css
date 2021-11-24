@@ -3,13 +3,183 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+/* header */
 .barre-head{
     background-color: #e88289;
     color: #E88282;
 }
+/* prez */
+.font{
+    background-color: #e88289;
+}
+
+.present{
+    color: #fff;
+    font-size: 24px;
+}
+
+.present-text{
+    color: #fff;
+}
 
 .img{
-   height: 500px;
-   
+   height: 500px;  
 }
+/* intro */
+#light-background{
+        display: block;
+}
+
+#photoProfil{
+    border-radius: 5px;
+    cursor: pointer;
+}
+#photoProfil:hover {
+    opacity: 0.7;
+}
+
+.separator{
+    color: #e88289;
+}
+
+/* competences */
+.couleur{
+    color: #e88289;
+}
+
+.contenu{
+    background-color: #4D4A4A;
+    /* margin-top: 45px; */
+}
+
+.skills{
+    color: #fff;
+    font-size: 24px;
+}
+
+.skills-langage{
+    margin-left: 25px;
+}
+
+.bar{
+    margin-left: 25px;
+}
+
+.card{
+    
+    margin-top: 30px;
+}
+
+.skills-list-title{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.rounded-list{
+    list-style: none;
+}
+
+.rounded-list li{
+    margin-left: 23px;
+    margin-top: -25px;
+}
+
+
+.case{
+    color: #C4C4C4;
+    font-size: 18px;
+}
+
+.skills-langage{
+    margin-left: 25px;
+}
+
+.skills-langage-title{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.skills-frame{
+    margin-left: 25px;
+}
+
+.skills-frame-title{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bar-frame{
+    margin-left: 25px;
+}
+
+/* realisations */
+
+.projet{
+    background-color: #e88289;
+}
+
+.section-realisation-title{
+    color: #fff;
+    font-size: 24px;
+}
+
+.image{
+    margin-top: 30px;
+}
+
+.project-description-title{
+    color: #fff;
+}
+
+.vitae{
+    color: #fff;
+}
+.cv{
+    text-decoration: none;
+}
+
+/* contact */
+
+.background{
+    background-color: #4D4A4A;
+}
+
+.contact{
+    color: #fff;
+    font-size: 24px;
+}
+
+.infos-me{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.me-concernant{
+    color: #fff;
+}
+
+.r-s{
+    color: #fff;
+}
+
+.coordonnee{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.liens{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+
+
